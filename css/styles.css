@@ -1,0 +1,208 @@
+.main-nav {
+  height: 70px;
+  background-color: gray;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+.nav-link {
+  list-style: none;
+  margin: 10px;
+  float: right;
+}
+
+.nav-link a {
+  float: right;
+  margin: 10px;
+}
+
+
+.banner {
+    background-image: url(../images/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.header-background {
+  padding-top: cover;
+  text-align: center;
+}
+
+.banner-header {
+  display: inline;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  margin: 25px auto;
+}
+
+.container::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+
+.column {
+  width: 25%;
+  float: left;
+  border: 1px solid #707070;
+  text-align: center;
+  padding: 2.5%;
+  margin-left: 2.5%;
+  background-color: #FF7A73;
+}
+
+.column-image {
+  width: 100%;
+}
+
+.column-header {
+  color: #f00;
+}
+
+
+.BG-color1 {
+  background-color: #808080;
+}
+
+.column-image {
+  width: 100%;
+}
+
+
+.BG-color2 {
+  background-color: #4671D5;
+}
+
+.column-image {
+  width: 100%;
+}
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 25px 0px;
+}
+
+.container-columns { 
+  width: 50%;
+  height: 100px;
+  background-color: red;
+  float: left;
+}
+
+.container-columns2 { 
+  width: 50%;
+  height: 100px;
+  background-color: red;
+  float: right;
+}
+
+
+footer {
+  height: 150px;
+  border-top: 1px solid #707070;
+  background: gray;
+  clear: both;
+}
+
+.footer-section {
+  height: 100%;
+  width: 33%;
+  border-left: 1px solid #000;
+  float: left; 
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.copyright {
+  margin: 55px 75px;
+}
+
+.center-container {
+  width: 50%;
+  margin: 35px auto;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 70px;
+}
+
+.social-media {
+  height: 100%;
+  width: 150px;
+  margin-left: 40%;
+}
+
+.section {
+  height: 50px;
+}
+
+.icon {
+  height: 100%;
+  width: 50px;
+  text-align: center;
+  background: gray;
+  margin-left: calc(100%/3);
+}
+
+.icon .fa {
+  color: #7FA4FF;
+  font-size: 25px;
+  margin-top: 12.5px;
+}
+
+.icon.left {
+  float: left;
+  margin-left: 0px;
+}
+
+.icon.right {
+  float: right;
+  margin-left: 0px;
+}
+
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 25px 0px;
+}
+
+.contact-info {
+    border-top: 2px solid #404040;
+    text-align: center;
+}
+
+.contact-info::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.info-section {
+    width: 50%;
+    height: 225px;
+    float: left;
+}
+
+.info-border {
+    border-left: 1px solid #707070;
+    height: 100%;
+    width: 100%;
+}
+
+.info-text {
+    padding: 10px 0px;
+    margin: 0px;
+}
